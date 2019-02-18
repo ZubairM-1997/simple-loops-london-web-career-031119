@@ -6,8 +6,8 @@ counter = 0
     counter += 1 
     puts "Welcome to Flatiron School's Web Development Course!"
     
-    if counter == number_of_times
-      break
+   break if counter == number_of_times
+      
     end 
 end
 
