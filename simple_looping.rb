@@ -22,9 +22,9 @@ end
 #while loop
 def while_iterator(number_of_times)
   while user_input = gets.chomp 
-    puts 
+    puts "Welcome to Flatiron School's Web Development Course!"
   
-  phrase = "Welcome to Flatiron School's Web Development Course!"
+  
   
 end
 
