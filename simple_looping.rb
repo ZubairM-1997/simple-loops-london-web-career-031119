@@ -14,8 +14,8 @@ end
 
 
 def times_iterator(number_of_times)
-user_input = gets.chomp 
-user_input.times do 
+ 
+number_of_times.times do 
   puts "Welcome to Flatiron School's Web Development Course!"
 end
 
