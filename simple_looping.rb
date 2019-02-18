@@ -19,6 +19,10 @@ def times_iterator(number_of_times)
 end
 
 
+
+
+
+
 #while loop
 def while_iterator(number_of_times)#
 counter = 0 
@@ -26,7 +30,7 @@ counter = 0
     puts "Welcome to Flatiron School's Web Development Course!"
     counter += 1 
     
-    break if user_input.type == Float
+    break if user_input.class == Float
       puts "Enter a valid number"
     end 
   end
@@ -44,13 +48,12 @@ userinput = gets.chomp
     puts "Welcome to Flatiron School's Web Development Course!"
     counter += 1 
     
-    
+    break if userinput.class == Float
+      put "Enter a valid number"
+    end
+  end 
   
-  
-
 end
-
-
 
 
 #For loop
