@@ -24,9 +24,9 @@ def while_iterator(number_of_times)
   while user_input = gets.chomp 
     puts "Welcome to Flatiron School's Web Development Course!"
     
-    break if while_iterator
-  
-  
+    break if while_iterator.type == Float
+    end 
+  end
   
 end
 
